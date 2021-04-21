@@ -228,13 +228,13 @@ updateRoles = () => {
         if(err) throw err;
         inquirer.prompt([{
             name: "update",
-            type: "rawlist",
+            type: "list",
             choices() {
                 let choiceArray = [];
                 results.forEach(({first_name, last_name}) => {
                     choiceArray.push(first_name + " " + last_name);
                 });
-                console.log(choiceArray);
+                console.log("results: ", results)
                 return choiceArray;
                 
             },
@@ -242,7 +242,7 @@ updateRoles = () => {
         },
         {
             name: "role",
-            type: "rawlist",
+            type: "input",
             choices() {
                 const roleArray = [];
                 results.forEach(({title}) => {
@@ -263,7 +263,7 @@ updateRoles = () => {
                 console.log(chosenEmployee);
             });
             connection.query(
-                "UPDATE employee SET ? WHERE",
+                "UPDATE employee. SET ? WHERE",
                 [
                     {
                         title: answer.role,
