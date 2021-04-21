@@ -2,7 +2,7 @@
     By Jeff Cameron
 
 ## Description
-This application allows you to keep track of employees, their deparment, roles, and manager. It allows you to view the employees, departments and employee roles. through this application, you can add employees and update their roles and managers through node.js.
+This application allows you to keep track of employees, their deparment, roles, and manager. It allows you to view the employees, departments and employee roles. Through this application, you can add employees and update their roles and managers through node.js.
 
 ## Table of Contents
 
@@ -15,9 +15,6 @@ This application allows you to keep track of employees, their deparment, roles, 
 * [License](#license)
 
 
-* [Contribution](#contribution)
-
-
 * [Tests](#test)
 
 
@@ -26,19 +23,14 @@ This application allows you to keep track of employees, their deparment, roles, 
 
 * [Questions](#questions)
 
-undefined
-
 ## Installation
-please install node_modules in order for this application to fuction properly.
+Please install node_modules in order for this application to fuction properly.
 
 ## Usage
-using node.js, this application is used to track employees so that you are able to easily see each aspect of the employees' position, department and manager. if a role or manager changes, this application easily allows you to update to reflect these changes.
+Using node.js, this application is used to track employees so that you are able to easily see each aspect of the employees' position, department and manager. if a role or manager changes, this application easily allows you to update to reflect these changes.
 
 ## License
 This application is covered under the MIT license.
-
-## Contributing
-
 
 ## Tests
 I tested this application through node.js.
